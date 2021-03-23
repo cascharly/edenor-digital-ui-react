@@ -2,7 +2,7 @@ import React from "react";
 
 export const FooterBar = () => {
   return (
-    <div id="topBar" className="row px-2 py-2 text-white fixed-bottom">
+    <div id="footerBar" className="row px-2 py-2 text-white fixed-bottom">
       <div className="col-lg-4 col-md-2 col-sm-2">
         <img
           alt=""
@@ -32,13 +32,13 @@ export const FooterBar = () => {
       </div>
       <div className="col-sm d-none d-sm-block text-right">
         <small className="font-weight-bold">Información: </small>
-        <a href="#" className="m-2">
+        <a href="/" className="m-2">
           Centro de ayuda
         </a>
-        <a href="#" className="m-2">
+        <a href="/" className="m-2">
           Nota Legal
         </a>
-        <a href="#" className="m-2">
+        <a href="/" className="m-2">
           Politica de privacidad
         </a>
       </div>

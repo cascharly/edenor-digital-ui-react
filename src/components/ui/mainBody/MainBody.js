@@ -1,16 +1,16 @@
 import React from "react";
 import { Content } from "./Content";
-import { SideBar } from "./SideBar";
+import { SideBar } from "../sidebar/SideBar";
 
 export const MainBody = () => {
   return (
     <>
       <div id="mainBody" className="row ">
-        <div className="col-2 px-0">
-          <SideBar />
+        <div id="side-bar-container" className="col-2 px-0">
+          <SideBar/>
         </div>
 
-        <div className="col bg-light ">
+        <div className="col bg-light p-4 ">
           <Content />
         </div>
       </div>

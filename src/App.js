@@ -1,13 +1,13 @@
 import React from "react";
-import { TopBar } from "./components/TopBar";
-import { MainBody } from "./components/MainBody";
-import { FooterBar } from "./components/FooterBar";
+import { TopBar } from "./components/ui/topBar/TopBar";
+import { MainBody } from "./components/ui/mainBody/MainBody";
+import { FooterBar } from "./components/ui/footerBar/FooterBar";
 
 export const App = () => {
   return (
     <div className="container-fluid">
       <TopBar />
-      <MainBody />
+      <MainBody/>
       <FooterBar />
     </div>
   );

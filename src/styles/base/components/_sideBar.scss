@@ -1,14 +1,43 @@
 #sideBar{
-    // background-color:#2d6fb6
-    color: white;
-    
-    
+  // background-color:#2d6fb6
+  color: white;
+}
+
+#sideBar path{
+    // fill: rgb(202, 201, 201)
+}
+
+#sideBar #option-wrapper {
+    filter: contrast(0.6);
+    &:hover {
+        filter: none;
+    }
+
 }
 
 #user * {
-    line-height: 15px;
+  line-height: 20px;
 }
 
-#icon-sidebar{
-   
+#icon-sidebar {
+  //    border: 1px red solid;
+  width: 50px;
+  text-align: center;
 }
+
+hr {
+  margin: 10px;
+}
+
+#option-wrapper {
+  border-left: 5px solid transparent;
+  &:hover {
+    border-left: 5px solid #3473c7;
+  }
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }

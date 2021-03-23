@@ -1,4 +1,9 @@
 #mainBody {
-    height: 90vh;
+    // height: 95vh;
+    height: calc(100vh - 50px);
     background-color: #1d558d
+}
+
+#side-bar-container {
+    min-width: 260px;
 }

@@ -2,9 +2,9 @@ import React from "react";
 
 export const TopBar = () => {
   return (
-    <div id="topBar" className="row pl-0 py-2">
+    <div id="topBar" className="row pl-1 py-2">
      
-      <svg width="176px" height="33px" viewBox="0 0 186 33">
+      <svg width="176px" height="33px" viewBox="10 0 186 33">
         <g>
           <g
             transform="translate(-20.000000, -16.000000)"
