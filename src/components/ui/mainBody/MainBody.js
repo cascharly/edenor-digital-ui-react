@@ -10,7 +10,7 @@ export const MainBody = () => {
           <SideBar/>
         </div>
 
-        <div id="mainContent" className="col bg-light p-4 ">
+        <div id="mainContent" className="col bg-white p-4 ">
           <Content />
         </div>
       </div>

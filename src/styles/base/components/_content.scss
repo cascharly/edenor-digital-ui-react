@@ -9,6 +9,34 @@
   vertical-align: middle;
   font-size: 16px;
 }
-h3 {
-    font-weight: 600;
+
+#account-wrapper {
+}
+
+#account-main {
+  border-left: 8px solid #4d97fa;
+  border-top: 2px solid rgb(226, 226, 226);
+  border-right: 2px solid rgb(226, 226, 226);
+  border-bottom: 2px solid rgb(226, 226, 226);
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+#account-title {
+  align-self: center;
+}
+
+#account-title span {
+  font-size: 18px;
+  font-weight: 600;
+}
+#account-address span {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#account-number span {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(156, 156, 156);
 }

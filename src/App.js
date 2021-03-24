@@ -7,7 +7,7 @@ export const App = () => {
   return (
     <div className="container-fluid">
       <TopBar />
-      <MainBody/>
+      <MainBody />
       <FooterBar />
     </div>
   );
