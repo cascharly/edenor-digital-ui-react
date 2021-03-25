@@ -3,7 +3,8 @@ import React from "react";
 export const Logo = ({ viewBox = "10 0 186 33" }) => {
   // console.log(viewBox);
   return (
-    <svg width="176px" height="33px" viewBox={viewBox}>
+    <div className="col align-self-center">
+      <svg width="176px" height="33px" viewBox={viewBox}>
       {/* default size ---> viewBox="10 0 186 33" */}
       <g>
         <g
@@ -82,5 +83,6 @@ export const Logo = ({ viewBox = "10 0 186 33" }) => {
         </g>
       </g>
     </svg>
+    </div>
   );
 };

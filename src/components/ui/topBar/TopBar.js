@@ -3,7 +3,7 @@ import { Logo } from "./Logo";
 
 export const TopBar = () => {
   return (
-    <div id="topBar" className="row pl-1 py-2">
+    <div id="topBar" className="row fixed-top">
      <Logo />
     </div>
   );
